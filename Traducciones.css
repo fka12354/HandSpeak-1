@@ -31,11 +31,9 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
-
 button:hover {
     background-color: #218883;
 }
-
 #search-results {
     margin-top: 20px;
 }

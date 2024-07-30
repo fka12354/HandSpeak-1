@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    
+        max-width: 100%;
         margin: 0;
         padding: 0;
         background: url(Logo.grande.jpeg);   
@@ -17,6 +18,17 @@ body {
         background-position: center;
         font-family: sans-serif;
     }
+
+
+    @media screen and (max-width: 800px) {
+        body {
+            background: url(Logo.mediano\ .jpg);   
+            }
+        
+    .obje{
+        font-size: 40px;
+        }
+      }
 
 .container {
     flex: 1;
@@ -37,6 +49,7 @@ aside {
     background-color: rgb(41, 191, 191);
     padding: 20px;
     box-sizing: border-box;
+    display: block;
 }
 
 footer {
