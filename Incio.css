@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+        margin: 0;
+        padding: 0;
+        background: url(Logo.grande.jpeg);   
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+    }
+
+.container {
+    flex: 1;
+    display: flex;
+}
+.main {
+    display: flex;
+    width: 200%;
+}
+
+.articles {
+    width: 70%;
+    margin-right: 50%;
+}
+
+aside {
+    width: 30%;
+    background-color: rgb(41, 191, 191);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+header nav {
+    background: #528FD5;
+    margin: auto;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: #ffffff54;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

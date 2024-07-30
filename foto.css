@@ -1,0 +1,10 @@
+img{
+    height: auto;
+    width: 800px;
+    margin: auto;
+    display: block;
+    border-radius:5px;
+}
+.texto-centrado {
+    text-align: center;
+}
