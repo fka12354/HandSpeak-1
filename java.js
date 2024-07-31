@@ -20,9 +20,9 @@ function SeleccionarOpcion(Opcion) {
   } else if (Opcion === "Borrador") {
     window.location.href = "Borrador.html";
   } else if (Opcion === "Caaguazu") {
-    window.location.href = "caaguazu.html";
+    window.location.href = "Caaguazu.html";
   } else if (Opcion === "Caazapa") {
-    window.location.href = "caazapa.html";
+    window.location.href = "Caazapa.html";
   } else if (Opcion === "CDE") {
     window.location.href = "CDE.html";
   } else if (Opcion === "CO") {
