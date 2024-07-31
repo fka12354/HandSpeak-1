@@ -39,8 +39,8 @@ function SeleccionarOpcion(Opcion) {
     window.location.href = "Cuaderno.html";
   } else if (Opcion === "Curso") {
     window.location.href = "Curso.html";
-  } else if (Opcion === "Dirrecion") {
-    window.location.href = "Dirreccion.html";
+  } else if (Opcion === "Direccion") {
+    window.location.href = "Direccion.html";
   } else if (Opcion === "Encarnacion") {
     window.location.href = "Encarnacion.html";
   } else if (Opcion === "Entender") {

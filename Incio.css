@@ -18,11 +18,9 @@ body {
         background-position: center;
         font-family: sans-serif;
     }
-
-
     @media screen and (max-width: 800px) {
         body {
-            background: url(Logo.mediano\ .jpg);   
+            background: url(logoc.jpg);   
             }
         
     .obje{
